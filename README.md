@@ -10,5 +10,13 @@
 # CARNÉ: B64047
 # Profesor: Fabián Abarca
 
+\begin{equation}
+\label{eq1} 
+fx(x) = \frac{1}{\sqrt{2\pi s^{2} } } e^{\frac{-(x-u)^{2}}{2s^{2}}}
+\end{equation}
 
-$$ fx(x) = \frac{1}{\sqrt{2\pi s^{2} } } e^{\frac{-(x-u)^{2}}{2s^{2}}} $$
+
+
+
+
+ 
