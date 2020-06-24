@@ -9,3 +9,6 @@
 # EDGAR MADRIGAL VÍQUEZ
 # CARNÉ: B64047
 # Profesor: Fabián Abarca
+
+
+fx(x) = \frac{1}{\sqrt{2\pi s^{2} } } e^{\frac{-(x-u)^{2}}{2s^{2}}}
