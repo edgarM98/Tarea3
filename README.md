@@ -67,21 +67,40 @@ Hallar los valores de correlación, covarianza y coeficiente de correlación (Pe
 
 Correlación: 
 
+Por medio de la siguiente ecuación se obtiene el valor de correlación.
+
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=\sum_{y=5}^{25}\sum_{x=5}^{15}xy f_{x,y}(x,y)">  
 </p>
 
+ El valor de correlación obtenido fue de: 149.54281
+La correlación me indica si 2 variables están relacionadas. Como la correlación se puede escribir de la forma Rxy = E[X]* E[Y] entonces podemos decir que no hay correlación entre X y Y.
+
+
 Covarianza:
+
+La covarianza es un valor que indica la variación que tienen dos variables aleatorias con respecto a su respectiva media.
+Se puede obtener este valor con la siguiente ecuación:
 
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=\sum_{y=5}^{25}\sum_{x=5}^{15}(x-\bar{X})(y-\bar{Y}) f_{x,y}(x,y)">  
 </p>
 
+El valor de covarianza obtenido fue de: 0.06481
+Podemos observar que el valor obtenido de covarianza es aproximadamente 0, por lo que se puede interpretar que no hay covarianza ya que no hay correlación. Se obtuvo el valor esperado.
+
 Coeficiente de correlación:
+
+Este coeficiente de correlación o coeficiente de Pearson indica también de cierta forma qué tanto están relacionadas dos variables.
+Este valor se puede obtener con la siguiente ecuación:
 
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=\sum_{y=5}^{25}\sum_{x=5}^{15}\frac{(x-\bar{X})}{\sigma_x}\frac{(y-\bar{Y})}{\sigma_y} f_{x,y}(x,y)">  
 </p>
+
+El valor del coeficiente de correlación obtenido fue de: 0.00338459
+Como era de esperarse, el valor fue nuevamente aproximadamente 0 ya que no hay relación entre X y Y.
+
 
 
 ## PREGUNTA 4
