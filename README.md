@@ -97,13 +97,7 @@ Este valor se puede obtener con la siguiente ecuación:
   <img src="https://render.githubusercontent.com/render/math?math=\sum_{y=5}^{25}\sum_{x=5}^{15}\frac{(x-\bar{X})}{\sigma_x}\frac{(y-\bar{Y})}{\sigma_y} f_{x,y}(x,y)">  
 </p>
 
-O de la siguiente forma:
-
-<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=\frac{covarianza}{\sigma_x * \sigma_y}">  
-</p>
-
-El valor del coeficiente de correlación obtenido fue de: 0.00338459
+El valor del coeficiente de correlación obtenido fue de: 0.00338459.
 Como era de esperarse, el valor fue nuevamente aproximadamente 0 ya que no hay relación entre X y Y.
 
 
