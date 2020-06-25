@@ -42,11 +42,11 @@ Recordando, teníamos que las funciones marginales de X y Y son, respectivamente
 </p>
 
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=f_x(x) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(y-\mu)^2}{2\sigma^2}}">  
+  <img src="https://render.githubusercontent.com/render/math?math=f_y(y) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(y-\mu)^2}{2\sigma^2}}">  
 </p>
 
 
-Como se asume la independecia de X y de Y, la función de densidad conjunta es la multiplicación de la función de densidad marginal de X y la función de densidad marginal de Y.
+Como se asume la independencia de X y de Y, la función de densidad conjunta es la multiplicación de la función de densidad marginal de X y la función de densidad marginal de Y.
 Entonces la función de densidad conjunta es:
 
 <p align="center">
@@ -63,7 +63,6 @@ Sustiyendo los valores respectivos de la media y desviación estándar, tenemos 
 
 
 ## PREGUNTA 3 
-Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado.
 
 Correlación: 
 
@@ -73,7 +72,7 @@ Por medio de la siguiente ecuación se obtiene el valor de correlación.
   <img src="https://render.githubusercontent.com/render/math?math=\sum_{y=5}^{25}\sum_{x=5}^{15}xy f_{x,y}(x,y)">  
 </p>
 
- El valor de correlación obtenido fue de: 149.54281
+ El valor de correlación obtenido fue de: 149.54281.
 La correlación me indica si 2 variables están relacionadas. Como la correlación se puede escribir de la forma Rxy = E[X]* E[Y] entonces podemos decir que no hay correlación entre X y Y.
 
 
@@ -96,6 +95,12 @@ Este valor se puede obtener con la siguiente ecuación:
 
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=\sum_{y=5}^{25}\sum_{x=5}^{15}\frac{(x-\bar{X})}{\sigma_x}\frac{(y-\bar{Y})}{\sigma_y} f_{x,y}(x,y)">  
+</p>
+
+O de la siguiente forma:
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{covarianza}{\sigma_x * \sigma_y}">  
 </p>
 
 El valor del coeficiente de correlación obtenido fue de: 0.00338459
