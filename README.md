@@ -116,9 +116,9 @@ La función de densidad conjunta se calcula con la siguiente ecuación:
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = f_x(x)\cdot f_y(y)">  
 </p>
 
-Para graficar en 3D la densidad conjunta, el vector de las z corresponde a la multiplicación de los vectores de densidad marginal de X y de Y, para obtener un vector de longitud 231 que me permita graficar junto con los vectores de las X y las Y del archivo xyp.
+Para graficar en 3D la densidad conjunta, el vector de las z corresponde a la multiplicación de los vectores de densidad marginal de X y de Y, para obtener un vector de longitud 231 que me permita graficar junto con los vectores de las X y las Y del archivo xyp. Se observa de igual forma el comportamiento en forma gaussiana de la curva.
 
-Función de densidad conjunta de 3D:
+Función de densidad conjunta en 3D:
 ![conjunta](/d_conjunta.png)
 
 
