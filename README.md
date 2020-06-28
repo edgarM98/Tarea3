@@ -19,11 +19,14 @@ Ecuación para función de densidad marginal de X:
   <img src="https://render.githubusercontent.com/render/math?math=f_x(x) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(x-\mu)^2}{2\sigma^2}}">  
 </p>
 
+Para el vector de densidad marginal de X se obtuvo una media de: 10 y una desviación estándar de 3.1622.
+
 Ecuación para función de densidad marginal de Y:
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=f_x(x) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(y-\mu)^2}{2\sigma^2}}">  
+  <img src="https://render.githubusercontent.com/render/math?math=f_x(y) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(y-\mu)^2}{2\sigma^2}}">  
 </p>
 
+Para el vector de densidad marginal de Y se obtuvo una media de: 15 y una desviación estándar de 6.02693775. 
 
 Curva de ajuste gaussiana para la densidad marginal de X:
 ![AjusteX](/fitX.png)
@@ -53,7 +56,7 @@ Entonces la función de densidad conjunta es:
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = (\frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(x-\mu)^2}{2\sigma^2}} ) \cdot (\frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{(y-\mu)^2}{2\sigma^2}})">  
 </p>
 
-Sustiyendo los valores respectivos de la media y desviación estándar, tenemos que:
+Sustiyendo los valores respectivos de la media y desviación estándar, tenemos que la expresión de la función de densidad conjunta que modela los datos es:
 
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = (\frac{1}{(3.1622) \sqrt{2\pi}} \cdot e^{-\frac{(x-10)^2}{2(3.1622)^2}} ) \cdot (\frac{1}{(3.0553) \sqrt{2\pi}} \cdot e^{-\frac{(y-15)^2}{2(3.0553)^2}})">  
