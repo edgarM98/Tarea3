@@ -22,20 +22,17 @@ matriz = np.array(datos)
 #print("\n")
 
 ####### MEDIA, VARIANZA, DESVIACION ESTANDAR    #########
-# Calculamos la media, varianza y desviacion estandar
+# Codigo para calcular la media, varianza y desviacion estandar
 
-a = np.array(datos)
-mu = a.mean()
-sigma = a.std()
-var = a.var()
+#a = np.array(datos)
+#mu = a.mean()
+#sigma = a.std()
+#var = a.var()
 
-print("La media es:", mu)
-print("La varianza es:", var)
-print("La desviación estandar es:", sigma)
+#print("La media es:", mu)
+#print("La varianza es:", var)
+#print("La desviación estandar es:", sigma)
 
-
-# MEDIA = 0.004329
-# DESVIACION = 0.0000076121
 
 #### FUNCION DE DENSIDAD MARGINAL DE X ##########
 
