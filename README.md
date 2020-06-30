@@ -59,7 +59,7 @@ Entonces la función de densidad conjunta es:
 Sustiyendo los valores respectivos de la media y desviación estándar, tenemos que la expresión de la función de densidad conjunta que modela los datos es:
 
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = (\frac{1}{(3.1622) \sqrt{2\pi}} \cdot e^{-\frac{(x-10)^2}{2(3.1622)^2}} ) \cdot (\frac{1}{(3.0553) \sqrt{2\pi}} \cdot e^{-\frac{(y-15)^2}{2(3.0553)^2}})">  
+  <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = (\frac{1}{(3.1622) \sqrt{2\pi}} \cdot e^{-\frac{(x-10)^2}{2(3.1622)^2}} ) \cdot (\frac{1}{(6.03) \sqrt{2\pi}} \cdot e^{-\frac{(y-15)^2}{2(6.03)^2}})">  
 </p>
 
 
